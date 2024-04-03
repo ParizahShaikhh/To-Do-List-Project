@@ -1,0 +1,25 @@
+{
+  "name": "ps-to-do-list-project",
+  "version": "1.1.0",
+  "description": "CLI-based-To-Do-List Project",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Parizah Shaikh",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cli-table3": "^0.6.4",
+    "inquirer": "^9.2.17",
+    "table": "^6.8.2"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
